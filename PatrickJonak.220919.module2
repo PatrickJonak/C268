@@ -1,0 +1,136 @@
+    1  exit
+    2  ls *
+    3  ls
+    4  mkdir home
+    5  ls
+    6  exit
+    7  ls
+    8  man ls
+    9  pwd
+   10  cd /usr/bin
+   11  pwd
+   12  mkdir c268
+   13  pwd
+   14  cd
+   15  pwd
+   16  mkdir c268
+   17  pwd
+   18  ls
+   19  cd c268
+   20  touch file.txt
+   21  ls
+   22  ls -ltr
+   23  ls *.txt
+   24  ls *.py
+   25  pwd
+   26  cd ..
+   27  pwd
+   28  history 
+   29  uname
+   30  uname -a
+   31  sumo yum install git
+   32  sudo yum install git
+   33  bash git
+   34  git bash
+   35  git --version
+   36  git config --global user.name "PatrickJonak"
+   37  git config --global user.email "patrickjonak6@gmail.com"
+   38  git status
+   39  pwd
+   40  cd c268
+   41  pwd
+   42  git clone https://github.com/PatrickJonak/C268.git
+   43  touch file.txt
+   44  git add file.txt
+   45  git push file.txt
+   46  ls
+   47  git push
+   48  cd C268
+   49  touch file.txt 
+   50  git add file.txt
+   51  git commit -m "First commit"
+   52  git push
+   53  touch README.txt
+   54  git add README.txt
+   55  git push
+   56  ls
+   57  git commit -m "Added README.txt"
+   58  git push
+   59  rm README.txt
+   60  ls
+   61  git commit -m "Removed file"
+   62  git rm README.txt
+   63  git commit -m "Removed file"
+   64  git push
+   65  git pull
+   66  git config pull.rebase false
+   67  git ls
+   68  ls
+   69  git pull
+   70  mkdir BasicExercise
+   71  ls
+   72  git add BasicExercise
+   73  git commit -m "New folder"
+   74  git push
+   75  ls
+   76  cd BasicExercise
+   77  pwd
+   78  grep file.txt
+   79  pwd
+   80  find /home/ec2-user/c268/C268/BasicExercise -name "file*"
+   81  cd ..
+   82  find /home/ec2-user/c268/C268 -name "file*"
+   83  cat file.txt
+   84  :q
+   85  cat file.txt
+   86  cat file
+   87  cat file.txt
+   88  ls
+   89  ls/usr/bin
+   90  ls /usr/bin/
+   91  man ps
+   92  ps -ef | grep -v root
+   93  man ps
+   94  man ps | grep -s
+   95  ps -stat
+   96  ps -s
+   97  ps -eo stat
+   98  pstree -shapu --
+   99  pstree -shapu $$
+  100  clear
+  101  ps -ef | egrep $$
+  102  ps -ef | egrep "$$|cms"
+  103  ps -ef | egrep "$$|cmd"
+  104  clear
+  105  ps -eo user,pid,ppid,stat,cmd | egrep "(CMD|$$)"
+  106  ps -eo pid, stat
+  107  ps -eo pid,stat
+  108  clear
+  109  ps -eo pid,stat | grep S | head
+  110  ps -eo pid,stat | grep S | head -2
+  111  ps -eo pid,stat | grep S | head -3
+  112  echo $USER
+  113  top -u 
+  114  top -u $userr
+  115  top -u $user
+  116  ping google.com
+  117  clear
+  118  pwd
+  119  cd /var/log
+  120  cd ..
+  121  pwd
+  122  ls 
+  123  ls -l
+  124  ls -l -r
+  125  cd ~
+  126  cd ..
+  127  man ls
+  128  cd /var/
+  129  man ls
+  130  ls -l -S -r
+  131  uname --m
+  132  history > PatrickJonak.220919.module2
+  133  history > PatrickJonak.220919.modulecd ~
+  134  history > PatrickJonak.220919.module2
+  135  cd ~
+  136  history > PatrickJonak.220919.module2
