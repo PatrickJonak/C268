@@ -1,0 +1,12 @@
+#!/bin/bash 
+
+#Script prints and labels system info to terminal
+
+echo "Username: " $USER
+echo "Date(YYMMDD): " `date +%D`
+echo "TimeUTC(HH:MM:SS): " `date +%X`
+echo "Directory: " `pwd`
+echo "#Files: " `ls | wc -l` #found online, counts # newlines
+echo "MaxFile: " `ls -S | head -n1 `
+
+exit 0
